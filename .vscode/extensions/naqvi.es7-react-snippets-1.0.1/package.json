@@ -1,0 +1,43 @@
+{
+	"name": "es7-react-snippets",
+	"displayName": "ES7/React-Snippets",
+	"description": "A Simple Extension For React",
+	"publisher": "naqvi",
+	"version": "1.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nrcool/React-snippet-Vscode-extension"
+	},
+	"icon": "icon.png",
+	"author": {
+		"name": "naqvi"
+	},
+	"engines": {
+		"vscode": "^1.57.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "bbd0f508-e5eb-4867-a3e5-42f60d61429c",
+		"publisherId": "b8449439-5db9-4a6d-9eab-436c6bac417e",
+		"publisherDisplayName": "naqvi",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1682670866219,
+		"preRelease": false
+	}
+}

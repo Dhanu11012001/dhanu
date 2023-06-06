@@ -1,0 +1,17 @@
+{
+  "name": "fixture",
+  "ts-standard": {
+    "project": "./tsconfig.json",
+    "env": [
+      "node"
+    ]
+  },
+  "scripts": {
+    "lint": "ts-standard"
+  },
+  "devDependencies": {
+    "ts-standard": "latest",
+    "typescript": "latest",
+    "@types/node": "latest"
+  }
+}
