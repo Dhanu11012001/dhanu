@@ -1,0 +1,8 @@
+{
+  "standard.enable": true,
+  "standard.engine": "ts-standard",
+  "standard.usePackageJson": true,
+  "standard.workingDirectories": ["client", "server"],
+  "standard.autoFixOnSave": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

@@ -1,0 +1,67 @@
+{
+	"name": "html-to-react",
+	"displayName": "html-to-react",
+	"description": "Converts HTML code to React JSX",
+	"publisher": "VictorBaudot",
+	"version": "0.0.7",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/VictorBaudot/vscode-html-to-react.git"
+	},
+	"categories": [
+		"Other"
+	],
+	"icon": "icon/html-to-react.png",
+	"keywords": [
+		"html",
+		"conversor",
+		"jsx",
+		"react",
+		"vue",
+		"converter",
+		"tailwind",
+		"tailwindcss",
+		"tailwindui"
+	],
+	"activationEvents": [
+		"onCommand:html-to-react.convert"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "html-to-react.convert",
+				"title": "Convert HTML to React JSX"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "yarn run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.46.0",
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^13.11.0",
+		"eslint": "^6.8.0",
+		"glob": "^7.1.6",
+		"mocha": "^7.1.2",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.3.0"
+	},
+	"__metadata": {
+		"id": "f1313378-f7c9-41d0-afe6-ab3b4217bfee",
+		"publisherId": "9f112da6-1896-49b1-96bd-32730c36888e",
+		"publisherDisplayName": "victorbaudot",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1685679728289,
+		"preRelease": false
+	}
+}
