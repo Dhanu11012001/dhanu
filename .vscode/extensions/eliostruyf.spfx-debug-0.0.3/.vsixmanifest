@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="spfx-debug" Version="0.0.3" Publisher="eliostruyf"/>
+    <DisplayName>SPFx Debug Configuration</DisplayName>
+    <Description xml:space="preserve">Debug configuration extension for SharePoint Framework projects / developers. This allows you to automatically add the required debug configurations for Chrome to the launch.json file.</Description>
+    <Tags>SharePoint,SPFx,TypeScript,React,Debugging,debuggers</Tags>
+    <Categories>Debuggers</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.17.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="msjsdiag.debugger-for-chrome" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/estruyf/vscode-spfx-debug-config.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/estruyf/vscode-spfx-debug-config.git" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/estruyf/vscode-spfx-debug-config.git" />
+        
+      
+      
+      
+      
+      
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      
+      
+    </Properties>
+    
+    <Icon>extension/assets/spfx-debug.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/assets/spfx-debug.png" Addressable="true" />
+  </Assets>
+</PackageManifest>
